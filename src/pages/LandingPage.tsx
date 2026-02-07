@@ -6,6 +6,7 @@ import Powers from '../components/sections/Powers';
 import Process from '../components/sections/Process'; 
 import Glimpse from '../components/sections/Glimpse';
 import Testimonial from '../components/sections/Testimonial'; 
+import FAQ from '../components/sections/FAQ';
 import Footer from '../components/layout/Footer';
 
 const LandingPage = () => {
@@ -20,6 +21,7 @@ const LandingPage = () => {
         <Process />
         <Glimpse />
         <Testimonial />
+        <FAQ />
       </main>
       <Footer />
     </div>
