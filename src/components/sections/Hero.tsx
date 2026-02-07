@@ -247,7 +247,7 @@ const Hero: React.FC = () => {
         {/* --- BOTTOM SECTION (Absolute positioning to fit the cutout) --- */}
         
        {/* 1. DARK BROWN CARD (Fits into the bottom-left notch) */}
-        <div className="absolute left-0 bottom-35 z-40 bg-[#451a03] w-[376px] h-[140px] rounded-tr-[40px] rounded-bl-[40px] flex items-center px-10 relative shadow-2xl overflow-hidden">
+        <div className="left-0 bottom-35 z-40 bg-[#451a03] w-[376px] h-[140px] rounded-tr-[40px] rounded-bl-[40px] flex items-center px-10 relative overflow-hidden">
           
           {/* --- CONTENT LAYER (z-10 to stay above background fruits) --- */}
           <div className="flex flex-col gap-1 w-full relative z-10">

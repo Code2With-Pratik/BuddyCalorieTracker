@@ -1,7 +1,7 @@
 import Navbar from '../components/layout/Navbar';
 import Hero from '../components/sections/Hero';
-import Features from '../components/sections/Features'; // Create similarly
-import Pricing from '../components/sections/Pricing';   // Create similarly
+import MeetBuddy from '../components/sections/MeetBuddy';
+import Pricing from '../components/sections/Pricing'; 
 import Footer from '../components/layout/Footer';
 
 const LandingPage = () => {
@@ -10,7 +10,7 @@ const LandingPage = () => {
       <Navbar />
       <main>
         <Hero />
-        <Features />
+        <MeetBuddy />
         <Pricing />
       </main>
       <Footer />
