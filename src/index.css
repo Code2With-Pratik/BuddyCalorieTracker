@@ -1,70 +1,61 @@
 @import "tailwindcss";
 
+@theme {
+  --color-brand-cream: #FDF1D3;
+  --color-brand-orange: #D97706;
+  --color-brand-light-orange: #FEF3C7;
+  --color-brand-dark: #723804;
+
+  /* NEW: Custom Shadow Template 
+     Usage: className="shadow-card"
+  */
+  --shadow-card: 0 30px 60px -15px rgba(0, 0, 0, 0.3), inset 0 2px 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+/* Reset all default Vite constraints */
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+  width: 100%;
+  background-color: white; /* Forces the background to be white/cream instead of black */
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  padding: 0;
+  display: block; /* Removed flex and place-items: center */
+  width: 100%;
   min-height: 100vh;
+  overflow-x: hidden; /* Prevents the horizontal scroll/gap */
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/* Smooth scrolling for your Navbar links */
+html {
+  scroll-behavior: smooth;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+/* Custom Animation for the floating food in Hero */
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.animate-bounce-slow {
+  animation: bounce-slow 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.animate-floatSlow {
+  animation: floatSlow 6s ease-in-out infinite;
 }
