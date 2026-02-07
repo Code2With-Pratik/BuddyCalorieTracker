@@ -2,6 +2,7 @@ import Navbar from '../components/layout/Navbar';
 import Hero from '../components/sections/Hero';
 import MeetBuddy from '../components/sections/MeetBuddy';
 import Features from '../components/sections/Features'; 
+import Powers from '../components/sections/Powers'; 
 import Footer from '../components/layout/Footer';
 
 const LandingPage = () => {
@@ -12,6 +13,7 @@ const LandingPage = () => {
         <Hero />
         <MeetBuddy />
         <Features />
+        <Powers/>
       </main>
       <Footer />
     </div>
