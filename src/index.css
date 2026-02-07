@@ -1,15 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 @import "tailwindcss";
-
 @theme {
   --color-brand-cream: #FDF1D3;
-  --color-brand-orange: #D97706;
+  --color-brand-orange: #B34800;
   --color-brand-light-orange: #FEF3C7;
-  --color-brand-dark: #723804;
+  --color-brand-dark: #4F2C15;
 
   /* NEW: Custom Shadow Template 
      Usage: className="shadow-card"
   */
   --shadow-card: 0 30px 60px -15px rgba(0, 0, 0, 0.3), inset 0 2px 5px 1px rgba(0, 0, 0, 0.4);
+  --font-poetsen: "Poetsen One", sans-serif;
 }
 
 /* Reset all default Vite constraints */

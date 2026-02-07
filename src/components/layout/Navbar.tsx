@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
              </div>
              <div className="ml-3 text-[10px] leading-tight font-bold text-brand-dark">
                 Be a Fitness Coach?<br/>
-                <span className="text-gray-400 font-medium underline group-hover:text-brand-orange transition">Register Here</span>
+                <span className="text-gray-400 text-[15px] font-medium group-hover:text-brand-orange transition">Register Here</span>
              </div>
           </div>
         </div>
