@@ -4,6 +4,7 @@ import MeetBuddy from '../components/sections/MeetBuddy';
 import Features from '../components/sections/Features'; 
 import Powers from '../components/sections/Powers'; 
 import Process from '../components/sections/Process'; 
+import Glimpse from '../components/sections/Glimpse';
 import Footer from '../components/layout/Footer';
 
 const LandingPage = () => {
@@ -16,6 +17,7 @@ const LandingPage = () => {
         <Features />
         <Powers/>
         <Process />
+        <Glimpse />
       </main>
       <Footer />
     </div>

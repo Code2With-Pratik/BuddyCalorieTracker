@@ -44,7 +44,7 @@ const ProcessSection: React.FC = () => {
         <div className="relative max-w-6xl mx-auto">
 
             {/* === SVG DOTTED LINE (The "Hanging Chain" Curve) === */}
-            <svg className="absolute top-[230px] left-0 w-full h-[100px] z-10 pointer-events-none hidden lg:block overflow-visible">
+            <svg className="absolute top-57.5 left-0 w-full h-25 z-10 pointer-events-none hidden lg:block overflow-visible">
                 <path 
                   d="M 280,30 Q 400,90 520,30 M 680,30 Q 800,90 920,30" 
                   stroke="#451a03" 
