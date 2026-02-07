@@ -57,7 +57,7 @@ const FAQSection: React.FC = () => {
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-12 lg:gap-20">
 
         {/* --- LEFT SIDE: MASCOT & QUESTION MARKS --- */}
-        <div className="relative w-full max-w-[400px] lg:w-1/3 flex justify-center lg:justify-end mt-10 lg:mt-0">
+        <div className="relative w-full max-w-100 lg:w-1/3 flex justify-center lg:justify-end mt-10 lg:mt-0">
           
           {/* Main Buddy Image */}
           <img 
@@ -79,7 +79,7 @@ const FAQSection: React.FC = () => {
           {faqs.map((faq, index) => (
             <div 
               key={faq.id} 
-              className="bg-white rounded-[1.5rem] shadow-[0_4px_20px_rgb(0,0,0,0.06)] overflow-hidden transition-all duration-300 hover:shadow-lg border border-transparent hover:border-orange-100"
+              className="bg-white rounded-3xl shadow-[0_4px_20px_rgb(0,0,0,0.06)] overflow-hidden transition-all duration-300 hover:shadow-lg border border-transparent hover:border-orange-100"
             >
               
               {/* Accordion Header (Clickable) */}
@@ -104,7 +104,7 @@ const FAQSection: React.FC = () => {
               {/* Accordion Body (Animated Height) */}
               <div 
                 className={`transition-all duration-500 ease-in-out overflow-hidden ${
-                  openIndex === index ? 'max-h-[300px] opacity-100' : 'max-h-0 opacity-0'
+                  openIndex === index ? 'max-h-75 opacity-100' : 'max-h-0 opacity-0'
                 }`}
               >
                 <div className="p-6 pt-0 text-[#451a03]/70 font-medium leading-relaxed text-sm lg:text-base border-t border-gray-50 mt-2">
