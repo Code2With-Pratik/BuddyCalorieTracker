@@ -111,7 +111,7 @@ const TestimonialSection: React.FC = () => {
               <img src="/images/apple-logo.svg" alt="Apple" className="w-12 h-12 object-contain brightness-0" />
             </div>
             <h3 className="font-poetsen text-xl text-[#451a03] mb-6">App Store</h3>
-            <button className="bg-[#D97706] text-white font-bold py-3 px-8 rounded-full shadow-md w-full max-w-[200px] border-b-4 border-[#9a5404]">
+            <button className="bg-[#D97706] text-white font-bold py-3 px-8 rounded-full shadow-md w-full max-w-50 border-b-4 border-[#9a5404]">
               Download for iOS
             </button>
           </div>
@@ -122,7 +122,7 @@ const TestimonialSection: React.FC = () => {
               <img src="/images/google-play.svg" alt="Google Play" className="w-10 h-10 object-contain brightness-0" />
             </div>
             <h3 className="font-poetsen text-xl text-[#451a03] mb-6">Google Play Store</h3>
-            <button className="bg-[#D97706] text-white font-bold py-3 px-0 rounded-full shadow-md w-full max-w-[250px] border-b-4 border-[#9a5404]">
+            <button className="bg-[#D97706] text-white font-bold py-3 px-0 rounded-full shadow-md w-full max-w-62.5 border-b-4 border-[#9a5404]">
               Download for Android
             </button>
           </div>
@@ -149,7 +149,7 @@ const TestimonialSection: React.FC = () => {
         {/* --- SCROLL AREA WRAPPER --- */}
         <div className="relative w-full pb-12">
           
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[95%] max-w-[1200px] h-[450px] bg-[#FFF8E7] rounded-[3rem] -z-10"></div>
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[95%] max-w-300 h-112.5 bg-[#FFF8E7] rounded-[3rem] -z-10"></div>
 
           <div 
             ref={scrollContainerRef}
@@ -164,7 +164,7 @@ const TestimonialSection: React.FC = () => {
             {testimonials.map((t) => (
               <div 
                 key={t.id}
-                className="snap-center shrink-0 w-[85vw] md:w-[400px] bg-white rounded-[2rem] p-8 shadow-xl flex flex-col text-left transition-transform hover:scale-[1.02]"
+                className="snap-center shrink-0 w-[85vw] md:w-100 bg-white rounded-4xl p-8 shadow-xl flex flex-col text-left transition-transform hover:scale-[1.02]"
               >
                 {/* User Info */}
                 <div className="flex items-center gap-4 mb-6">
