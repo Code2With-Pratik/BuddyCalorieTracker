@@ -4,11 +4,11 @@ import { Facebook, Instagram, Twitter, Linkedin, Youtube } from 'lucide-react';
 const Hero: React.FC = () => {
   return (
     <section className="relative w-full min-h-screen bg-white flex items-center justify-center overflow-hidden py-10">
-      <div className="relative -mt-6 w-full max-w-[1485px] aspect-[16/9] lg:aspect-auto lg:h-[100vh] mx-auto">
+      <div className="relative -mt-6 w-full max-w-371.25 aspect-video lg:aspect-auto lg:h-screen mx-auto">
         
         {/* Background Image Layer */}
         <div 
-          className="absolute inset-0 bg-[url('/images/backgroung.webp')] bg-[length:100%_100%] bg-no-repeat bg-center z-0"
+          className="absolute inset-0 bg-[url('/images/backgroung.webp')] bg-size-[100%_100%] bg-no-repeat bg-center z-0"
         ></div>
 
         {/* --- CONTENT LAYER (Z-10) --- */}
@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
           <span className="text-[10px] font-bold text-brand-dark -rotate-180 uppercase tracking-[0.3em] mb-4" style={{ writingMode: 'vertical-lr' }}>
             Social Media
           </span>
-          <div className="w-[1px] h-10 bg-brand-dark"></div>
+          <div className="w-1px h-10 bg-brand-dark"></div>
           
           {/* Social Icons Loop */}
           {[
@@ -59,7 +59,7 @@ const Hero: React.FC = () => {
           </div>
 
           {/* 2. MAIN GRID CONTENT */}
-          <div className="flex-grow grid grid-cols-1 lg:grid-cols-2 gap-8 items-center px-12 lg:px-24 pt-20 pb-32">
+          <div className="grow grid grid-cols-1 lg:grid-cols-2 gap-8 items-center px-12 lg:px-24 pt-20 pb-32">
             
             {/* Left Column: Text & CTA */}
             <div className="text-center ml-15 lg:text-left z-20">
@@ -97,7 +97,7 @@ const Hero: React.FC = () => {
             {/* Right Column: Mascot & Floating Elements */}
             <div className="relative flex justify-center items-center h-full">
               {/* Main Mascot */}
-              <img src="/images/buddy.png" alt="buddy" className="relative z-20 -left-15.5 w-[62%] max-w-[450px] drop-shadow-2xl" />
+              <img src="/images/buddy.png" alt="buddy" className="relative z-20 -left-15.5 w-[62%] max-w-112.5 drop-shadow-2xl" />
               
               {/* --- Floating Plate 1 (Bottom Left - Salad) --- */}
               <div className="absolute -left-10 bottom-20 z-15">
@@ -247,7 +247,7 @@ const Hero: React.FC = () => {
         {/* --- BOTTOM SECTION (Absolute positioning to fit the cutout) --- */}
         
        {/* 1. DARK BROWN CARD (Fits into the bottom-left notch) */}
-        <div className="left-0 bottom-35 z-40 bg-[#451a03] w-[376px] h-[140px] rounded-tr-[40px] rounded-bl-[40px] flex items-center px-10 relative overflow-hidden">
+        <div className="left-0 bottom-35 z-40 bg-[#451a03] w-94 h-35 rounded-[40px] flex items-center px-10 relative overflow-hidden">
           
           {/* --- CONTENT LAYER (z-10 to stay above background fruits) --- */}
           <div className="flex flex-col gap-1 w-full relative z-10">
@@ -279,7 +279,7 @@ const Hero: React.FC = () => {
           <img 
             src="/images/apple.png" 
             alt="Apple" 
-            className="absolute bottom-[-10px] right-24 w-18 object-contain rotate-6" 
+            className="absolute -bottom-2.5 right-24 w-18 object-contain rotate-6" 
           />
 
           {/* 4. Banana (Bottom Right Corner - Clipped) */}
@@ -291,7 +291,7 @@ const Hero: React.FC = () => {
         </div>
 
         {/* 2. ORANGE TICKER (Fills the rest of the bottom width) */}
-        <div className="absolute bottom-0 right-0 left-[381px] h-[115px] z-30 overflow-hidden rounded-bl-[40px] rounded-br-[40px]">
+        <div className="absolute bottom-0 right-0 left-95.25 h-28.75 z-30 overflow-hidden rounded-bl-[40px] rounded-br-[40px]">
           {/* Removed 'rounded-l/r' and just kept the background and flex. 
               The outer div handles the shape via overflow-hidden. */}
           <div className="bg-brand-orange w-full h-full flex items-center overflow-hidden">
