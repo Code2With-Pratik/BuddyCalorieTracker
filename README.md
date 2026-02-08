@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/your-username/calorie-tracker-buddy">
-    <img src="./public/images/BuddyLogo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/Code2With-Pratik/BuddyCalorieTracker/blob/main/public/Images/BuddyLogo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h1 align="center">Calorie Tracker Buddy</h1>
@@ -10,11 +10,9 @@
     A playful, motivated, and responsive health tracking landing page built with React & Tailwind CSS.
     <br />
     <br />
-    <a href="https://your-live-demo-link.com">View Demo</a>
+    <a href="https://github.com/Code2With-Pratik/BuddyCalorieTracker//issues">Report Bug</a>
     ·
-    <a href="https://github.com/your-username/calorie-tracker-buddy/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/your-username/calorie-tracker-buddy/issues">Request Feature</a>
+    <a href="https://github.com/Code2With-Pratik/BuddyCalorieTracker//issues">Request Feature</a>
   </p>
 </div>
 
@@ -28,7 +26,7 @@
 <br />
 
 <div align="center">
-  <img src="./assets/landing-page.png" alt="Landing Page Screenshot" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" />
+  <img src="https://github.com/Code2With-Pratik/BuddyCalorieTracker/blob/main/src/assets/landing-page.png" alt="Landing Page Screenshot" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" />
 </div>
 
 <br />
@@ -77,7 +75,7 @@ To get a local copy up and running, follow these simple steps.
 
 1.  **Clone the repo**
     ```sh
-    git clone [https://github.com/your-username/calorie-tracker-buddy.git](https://github.com/your-username/calorie-tracker-buddy.git)
+    git clone [https://github.com/Code2With-Pratik/BuddyCalorieTracker.git](https://github.com/Code2With-Pratik/BuddyCalorieTracker.git)
     ```
 2.  **Navigate to the project directory**
     ```sh
