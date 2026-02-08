@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/Code2With-Pratik/BuddyCalorieTracker">
-    <img src="https://github.com/Code2With-Pratik/BuddyCalorieTracker/blob/main/public/Images/BuddyLogo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/Code2With-Pratik/BuddyCalorieTracker/blob/main/public/images/BuddyLogo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h1 align="center">Calorie Tracker Buddy</h1>
