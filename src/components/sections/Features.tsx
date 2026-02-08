@@ -3,7 +3,7 @@ import React from 'react';
 const FeaturesSection: React.FC = () => {
   return (
    
-    <section className="relative w-full bg-linear-to-b from-[#FFECC5] to-[#FFF8E7] pt-24 overflow-hidden">
+    <section id="features" className="relative w-full bg-linear-to-b from-[#FFECC5] to-[#FFF8E7] pt-24 overflow-hidden">
 
       {/* --- MAIN CONTENT CONTAINER --- */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 text-center">

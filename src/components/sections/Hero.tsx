@@ -3,7 +3,7 @@ import { Facebook, Instagram, Twitter, Linkedin, Youtube } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative w-full min-h-screen bg-white flex items-center justify-center overflow-hidden py-10">
+    <section id='hero' className="relative w-full min-h-screen bg-white flex items-center justify-center overflow-hidden py-10">
       <div className="relative -mt-6 w-full max-w-371.25 aspect-video lg:aspect-auto lg:h-screen mx-auto">
         
         {/* Background Image Layer */}

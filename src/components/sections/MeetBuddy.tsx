@@ -3,7 +3,7 @@ import { Target, Heart } from 'lucide-react';
 
 const MeetBuddySection: React.FC = () => {
   return (
-    <section className="relative w-full bg-linear-to-b from-[#ffffff] to-[#FFECC5] pt-60 pb-32 -mt-15 overflow-hidden z-20">
+    <section id="meetbuddy" className="relative w-full bg-linear-to-b from-[#ffffff] to-[#FFECC5] pt-60 pb-32 -mt-15 overflow-hidden z-20">
       <div className="absolute top-5 left-1/2 -translate-x-1/2 w-[85%] h-100 bg-[#FED898] rounded-b-full z-0"></div>
       <div className="absolute top-5 left-1/2 -translate-x-1/2 w-[80%] h-90 bg-[#fff5de] rounded-b-full z-0"></div>
 

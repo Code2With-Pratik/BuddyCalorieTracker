@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProcessSection: React.FC = () => {
   return (
-    <section className="relative w-full bg-white py-24 px-6 lg:px-8 overflow-x-clip">
+    <section id="process" className="relative w-full bg-white py-24 px-6 lg:px-8 overflow-x-clip">
       
       <div className="max-w-7xl mx-auto relative z-10">
 
