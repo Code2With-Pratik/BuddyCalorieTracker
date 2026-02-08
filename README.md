@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/your-username/calorie-tracker-buddy">
+  <a href="https://github.com/Code2With-Pratik/BuddyCalorieTracker">
     <img src="https://github.com/Code2With-Pratik/BuddyCalorieTracker/blob/main/public/Images/BuddyLogo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -10,6 +10,8 @@
     A playful, motivated, and responsive health tracking landing page built with React & Tailwind CSS.
     <br />
     <br />
+    <a href="https://buddycalorietracker.vercel.app/">View Demo</a>
+    .
     <a href="https://github.com/Code2With-Pratik/BuddyCalorieTracker//issues">Report Bug</a>
     ·
     <a href="https://github.com/Code2With-Pratik/BuddyCalorieTracker//issues">Request Feature</a>
@@ -58,7 +60,6 @@ This project showcases complex CSS positioning, responsive grid layouts, and cus
 | **Tailwind CSS** | Styling Framework |
 | **React Icons** | Iconography |
 | **Vite** | Build Tool |
-| **Framer Motion** | (Optional) Smooth Animations |
 
 ---
 
